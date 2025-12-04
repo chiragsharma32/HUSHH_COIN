@@ -5,6 +5,7 @@ import BrandSidebar from "@/components/navigation/BrandSidebar";
 import AdminSidebar from "@/components/navigation/AdminSidebar";
 import TopBar from "@/components/navigation/TopBar";
 import AdminTopBar from "@/components/navigation/AdminTopBar";
+import BrandTopBar from "@/components/navigation/BrandTopBar";
 
 export const metadata: Metadata = {
   title: "Hushh - Privacy-Preserving User Data Vault",
@@ -24,6 +25,7 @@ export default function RootLayout({
         <AdminSidebar />
         <TopBar />
         <AdminTopBar />
+        <BrandTopBar />
         <div className="min-h-screen pb-20 md:pb-0">{children}</div>
       </body>
     </html>
