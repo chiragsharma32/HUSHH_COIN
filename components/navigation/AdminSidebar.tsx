@@ -38,7 +38,7 @@ export default function AdminSidebar() {
   }
 
   return (
-    <aside className="fixed left-0 top-0 h-screen w-64 border-r border-stripe-cool-grey-DEFAULT bg-white dark:bg-stripe-charcoal-DEFAULT z-40">
+    <aside className="fixed left-0 top-0 h-screen w-64 border-r border-stripe-cool-grey-DEFAULT bg-white dark:bg-stripe-charcoal-DEFAULT z-40 hidden md:block">
       <div className="flex flex-col h-full">
         {/* Logo */}
         <div className="h-16 border-b border-stripe-cool-grey-DEFAULT flex items-center px-6">
@@ -73,5 +73,7 @@ export default function AdminSidebar() {
     </aside>
   );
 }
+
+
 
 

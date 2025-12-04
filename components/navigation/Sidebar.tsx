@@ -27,7 +27,12 @@ export default function Sidebar() {
   const widthClass = collapsed ? "w-16" : "w-64";
 
   return (
-    <aside className={cn("fixed left-0 top-0 h-screen border-r border-border bg-white dark:bg-[#111827] z-40", widthClass)}>
+    <aside
+      className={cn(
+        "fixed left-0 top-0 h-screen border-r border-border bg-white dark:bg-[#111827] z-40 hidden md:block",
+        widthClass
+      )}
+    >
       <div className="flex flex-col h-full">
         {/* Logo + collapse toggle */}
         <div className="h-16 border-b border-border flex items-center justify-between px-3">

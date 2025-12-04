@@ -51,7 +51,7 @@ const brands = [
 
 export default function AdminBrandsPage() {
   return (
-    <div className="ml-64 mt-16 p-8">
+    <div className="mt-16 md:ml-64 md:mt-16 p-4 md:p-8 pb-24">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8 flex items-center justify-between">

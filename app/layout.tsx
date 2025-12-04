@@ -24,7 +24,7 @@ export default function RootLayout({
         <AdminSidebar />
         <TopBar />
         <AdminTopBar />
-        {children}
+        <div className="min-h-screen pb-20 md:pb-0">{children}</div>
       </body>
     </html>
   );

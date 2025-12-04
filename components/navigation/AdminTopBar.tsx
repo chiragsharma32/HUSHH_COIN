@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export default function AdminTopBar() {
   return (
-    <header className="fixed top-0 left-64 right-0 h-16 border-b border-stripe-cool-grey-DEFAULT bg-white dark:bg-stripe-charcoal-DEFAULT z-30">
+    <header className="fixed top-0 left-0 md:left-64 right-0 h-16 border-b border-stripe-cool-grey-DEFAULT bg-white dark:bg-stripe-charcoal-DEFAULT z-30">
       <div className="flex items-center justify-between h-full px-6">
         {/* Search */}
         <div className="flex-1 max-w-md">
@@ -34,5 +34,7 @@ export default function AdminTopBar() {
     </header>
   );
 }
+
+
 
 
