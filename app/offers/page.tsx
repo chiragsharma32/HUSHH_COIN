@@ -52,7 +52,7 @@ const offers = [
 
 export default function OffersPage() {
   return (
-    <div className="ml-64 mt-16 p-8">
+    <div className="mt-16 md:ml-64 md:mt-16 p-4 md:p-8 pb-24">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl font-semibold text-foreground mb-2">Offers</h1>

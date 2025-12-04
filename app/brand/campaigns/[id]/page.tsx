@@ -50,7 +50,7 @@ export default function CampaignDetailPage() {
   const campaign = campaignData[campaignId] || campaignData["1"];
 
   return (
-    <div className="ml-64 mt-16 p-8">
+    <div className="mt-16 md:ml-64 md:mt-16 p-4 md:p-8 pb-24">
       <div className="max-w-6xl mx-auto">
         <Link
           href="/brand/campaigns"

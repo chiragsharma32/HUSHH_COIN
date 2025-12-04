@@ -16,7 +16,7 @@ export default function WithdrawPage() {
   const [method, setMethod] = useState("");
 
   return (
-    <div className="ml-64 mt-16 p-8">
+    <div className="mt-16 md:ml-64 md:mt-16 p-4 md:p-8 pb-24">
       <div className="max-w-2xl mx-auto">
         <Link
           href="/wallet"
